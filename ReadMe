@@ -30,3 +30,9 @@ build: this uses DOCKERFILE to build custom environment
 
 
 ## once done run compose up and you get editable docker
+
+if you want to remove image 
+    docker rmi imageRepoName
+check with " docker images "  if there on local
+
+" docker pull "  used to get image from remote repo
