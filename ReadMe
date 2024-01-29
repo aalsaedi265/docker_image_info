@@ -1,0 +1,32 @@
+
+Install Docker on the system really high up
+
+docker --version to check
+
+## docker search tensorflow
+ to search for image
+
+docker pull imageName
+
+## docker run imageName 
+after pull its a repo on the machine
+
+this will proivde links with information on machine and specific port
+to access the container you need to give it a local port
+
+# docker run -p urFavePort: DockerProviedPort imageName
+
+got to local host urFavePort then you will asked for a passowrd(they call it token) 
+its all the long string, provided and you will have access to container to begin working.
+
+## docker compose up
+once compose.yml is created to all the proper values in side then run to link the docker to this
+this yml file is vital to customization of the project
+
+## Docker file
+this is used to make sure to build a personal image and add modules to it
+compose  image: this to have full built image and can not add what i want
+build: this uses DOCKERFILE to build custom environment
+
+
+## once done run compose up and you get editable docker
